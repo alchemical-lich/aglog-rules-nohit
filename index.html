@@ -1671,9 +1671,14 @@ name for your PC.</p>
 abilities: <strong>Strength</strong> (STR), <strong>Dexterity</strong>
 (DEX), <strong>Wits</strong> (WIT), and <strong>Personality</strong>
 (PER). Each ability has a bonus value. For the quickest character
-creation, simply distribute the following bonuses however you like:</p>
+creation, simply pick one of the following arrays and distribute the
+bonuses however you like:</p>
 <p><strong>+2</strong>, <strong>+1</strong>, <strong>+1</strong>,
 <strong>+0</strong></p>
+<p><strong>+2</strong>, <strong>+2</strong>, <strong>+1</strong>,
+<strong>-1</strong></p>
+<p><strong>+1</strong>, <strong>+1</strong>, <strong>+1</strong>,
+<strong>+1</strong></p>
 <p>Optionally, you can randomly generate your bonuses with the
 <strong>Random Ability Bonus Table</strong>.</p>
 <table>
@@ -1685,19 +1690,23 @@ creation, simply distribute the following bonuses however you like:</p>
 </thead>
 <tbody>
 <tr class="odd">
+<td>2</td>
+<td align="center">-1</td>
+</tr>
+<tr class="even">
 <td>2–3</td>
 <td align="center">+0</td>
 </tr>
-<tr class="even">
-<td>4–7</td>
+<tr class="odd">
+<td>4–9</td>
 <td align="center">+1</td>
 </tr>
-<tr class="odd">
-<td>8–10</td>
+<tr class="even">
+<td>10–11</td>
 <td align="center">+2</td>
 </tr>
-<tr class="even">
-<td>11–12</td>
+<tr class="odd">
+<td>12</td>
 <td align="center">+3</td>
 </tr>
 </tbody>
@@ -2395,29 +2404,35 @@ or make up your own entry (Trollkin, Slugling, Automaton, …).</p>
 <tr class="odd">
 <td>1</td>
 <td><strong>Dwarf</strong></td>
-<td>Stoic and hardy. Gain expertise in a craft. Lowlight vision.</td>
+<td>Pick one: Lowlight vision, +1 inventory slot in your beard,
+Stonecunning.</td>
 <td>-2 to use magic items unless they are Dwarfish arcana.</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td><strong>Elf</strong></td>
-<td>Lowlight vision. Speak with plants–though they rarely have anything
-interesting to say.</td>
+<td>Pick one: Lowlight vision. Glade &amp; Glen (you move through the
+landscape without leaving a trace, and the natural world conspires with
+you in this. When traveling through a wilderness alone or with other
+elves you cannot be tracked and you gain +2 when rolling to avoid
+surprise).</td>
 <td>Worked metal of any sort makes you nauseous.</td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td><strong>Gnome</strong></td>
-<td>Become invisible if you close your eyes, hold your breath, &amp;
-don’t move.</td>
+<td>Pick one: Become invisible if you close your eyes, hold your breath,
+&amp; don’t move; Truculence (<strong>Advantage</strong> on saves vs
+Charm effects)</td>
 <td>Dangerously curious.</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td><strong>Halfling</strong></td>
-<td>Halflings are small creatures. You gain a +1 to AV when attacked by
-larger creatures.</td>
-<td>Tall folk often don’t take you seriously.</td>
+<td>Pick one: Halflings are small creatures. You gain a +1 to AV when
+attacked by larger creatures; Brave (<strong>Advantage</strong> against
+fear effects)</td>
+<td>Big eater–you need 1.5 times the rations others require.</td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -2476,7 +2491,7 @@ out by your mutation.</td>
 <tr class="odd">
 <td>5</td>
 <td><strong>Frogling</strong></td>
-<td>Prehensile tongue (as whip, 10’, 1d4 damage).</td>
+<td>Prehensile tongue (as whip).</td>
 <td>Drink twice as much water.</td>
 </tr>
 <tr class="even">
@@ -2491,7 +2506,8 @@ Fatigue (8 hours provide all other benefits).</td>
 <td>7</td>
 <td><strong>Goblin</strong></td>
 <td>Improved smell. Squishy–you can squeeze through tight spaces.</td>
-<td>Social pariah. Treated like lepers.</td>
+<td>Mutator. Whenever you roll on the Scars table, also for a random
+mutation.</td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -2528,8 +2544,8 @@ armor).</td>
 <td>12</td>
 <td><strong>Orc</strong></td>
 <td>Relentless. 1/per day you can remove 1 level of
-<strong>Fatigue</strong>. Lowlight vision.</td>
-<td>Prone to making rash decisions.</td>
+<strong>Fatigue</strong>.</td>
+<td><strong>Save vs PER</strong> to resist a challenge.</td>
 </tr>
 <tr class="odd">
 <td>13</td>
@@ -4313,7 +4329,7 @@ Wearing armor without proficiency incurs a general penalty to saves of
 </tr>
 <tr class="odd">
 <td>Zweihänder</td>
-<td>1d12</td>
+<td>2d6</td>
 <td>2</td>
 <td>2</td>
 <td>20</td>
